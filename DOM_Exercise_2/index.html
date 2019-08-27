@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="style.css"></script>
+    <title>Fruit and Veggie List</title>
+    <!-- Skills: DOM, event handlers, arrays -->
+</head>
+<body>
+        <h1>Shopping List</h1>
+        <form>
+          <h4>Enter a fruit or vegetable: </h4>
+          <input for="yumInput" type="text" id="yumInput"></input>
+          <br>
+          <h5>Select if it's a fruit or veggie: </h5><br>
+          <input type="radio" name="type" id="fruit"> Fruit<br>
+          <input type="radio" name="type" id="veggie"> Veggie<br>
+          <br>
+          <input type="submit" id="submit" value="submit">
+        </form>
+    
+        <div class="yumList">
+          <h3>Fruits</h3>
+          <ol id="fruits"></ol>
+        </div>
+    
+        <div class="yumList">
+          <h3>Veggies</h3>
+          <ol id="veggies"></ol>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

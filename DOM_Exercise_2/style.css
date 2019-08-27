@@ -1,0 +1,19 @@
+form {
+    margin: 0 auto;
+    width: 300px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  label {
+    width: 300px;
+  }
+  
+  input.name, textarea {
+    border: 1px solid #999;
+  }
+  
+  h1 {
+    text-align: center;
+  }
